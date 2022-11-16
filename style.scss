@@ -1,11 +1,13 @@
 @import "global";
 @import "media";
-#reviews{
-  .reviews--image{
+
+#reviews {
+  .reviews--image {
     display: flex;
     justify-content: space-around;
     padding: 100px 0 0 0;
-    &__text{
+
+    &__text {
       font-size: 22px;
       line-height: 33px;
       text-align: center;
@@ -13,15 +15,18 @@
       width: 400px;
       margin: 0 35px;
       padding: 20px 0;
-      h4{
+
+      h4 {
         font-size: 16px;
       }
-      h2{
+
+      h2 {
         padding: 15px 0;
         color: #333333;
       }
     }
-    &__text1{
+
+    &__text1 {
       font-size: 22px;
       line-height: 33px;
       text-align: center;
@@ -29,15 +34,18 @@
       width: 400px;
       margin: 0 500px;
       margin-top: -214px;
-      h4{
+
+      h4 {
         font-size: 16px;
       }
-      h2{
+
+      h2 {
         padding: 15px 0;
         color: #333333;
       }
     }
-    &__text2{
+
+    &__text2 {
       font-size: 22px;
       line-height: 33px;
       text-align: center;
@@ -45,12 +53,19 @@
       width: 400px;
       margin-left: 960px;
       margin-top: -195px;
-      h4{
+
+      h4 {
         font-size: 16px;
       }
-      h2{
+
+      h2 {
         padding: 15px 0;
         color: #333333;
+      }
+    }
+  }
+}
+
 #factsSpace {
   .factsSpace {
     @include flex;
@@ -62,9 +77,10 @@
       font-size: 54px;
       color: #2D2424;
     }
+
     &--h5 {
       width: 600px;
-      font-family: 'Nunito',sans-serif;
+      font-family: 'Nunito', sans-serif;
       font-style: normal;
       font-weight: 400;
       font-size: 14px;
@@ -72,26 +88,31 @@
       text-align: center;
       color: #BDBDBD;
     }
+
     &--img {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-evenly;
+
       &__text {
         padding: 20px 0 30px 0;
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         &--tittle {
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
           height: 200px;
           margin: 0 0 0 30px;
-          &__p{
+
+          &__p {
             color: #B85C38;
           }
+
           h5 {
-            font-family: 'Nunito',sans-serif;
+            font-family: 'Nunito', sans-serif;
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
@@ -104,3 +125,88 @@
     }
   }
 }
+
+#rocketScience {
+  background: #F7F9FC;
+
+  .rocketScience {
+    display: flex;
+
+    &--tittle {
+      padding: 160px 0;
+      h1 {
+        margin: 30px 0;
+        font-family: 'Nunito',sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 37px;
+        color: #333333;
+      }
+      h5{
+        padding: 30px 0;
+        @include h;
+      }
+      button{
+        border: none;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 12px 32px;
+        background: #B85C38;
+        border-radius: 40px
+      }
+    }
+
+    &--block {
+      margin: 60px 15px 100px 15px;
+      @include flex;
+      background: white;
+      box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+
+      h1 {
+        padding: 25px 0;
+        @include text;
+      }
+
+      h5 {
+        padding: 0 0 25px 0;
+        width: 250px;
+        @include h;
+      }
+
+      p {
+        color: #B85C38;
+        padding: 10px 0 70px 0;
+      }
+
+    }
+
+    &--block2 {
+      margin: 60px 15px 100px 15px;
+      @include flex;
+      background: white;
+      box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.12);
+      border-radius: 8px;
+
+      h1 {
+        padding: 25px 0;
+        @include text;
+      }
+
+      h5 {
+        padding: 0 0 25px 0;
+        width: 250px;
+        @include h;
+      }
+
+      p {
+        color: #B85C38;
+        padding: 10px 0 70px 0;
+      }
+    }
+  }
+}
+
