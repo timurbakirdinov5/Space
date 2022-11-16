@@ -71,6 +71,8 @@ a {
 #reviews .reviews--image__text2 h2 {
   padding: 15px 0;
   color: #333333;
+}
+
 #factsSpace .factsSpace {
   display: flex;
   flex-direction: column;
@@ -122,6 +124,108 @@ a {
   line-height: 18px;
   color: #BDBDBD;
   width: 280px;
+}
+
+#rocketScience {
+  background: #F7F9FC;
+}
+#rocketScience .rocketScience {
+  display: flex;
+}
+#rocketScience .rocketScience--tittle {
+  padding: 160px 0;
+}
+#rocketScience .rocketScience--tittle h1 {
+  margin: 30px 0;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  color: #333333;
+}
+#rocketScience .rocketScience--tittle h5 {
+  padding: 30px 0;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BDBDBD;
+}
+#rocketScience .rocketScience--tittle button {
+  border: none;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  background: #B85C38;
+  border-radius: 40px;
+}
+#rocketScience .rocketScience--block {
+  margin: 60px 15px 100px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+#rocketScience .rocketScience--block h1 {
+  padding: 25px 0;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #333333;
+}
+#rocketScience .rocketScience--block h5 {
+  padding: 0 0 25px 0;
+  width: 250px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BDBDBD;
+}
+#rocketScience .rocketScience--block p {
+  color: #B85C38;
+  padding: 10px 0 70px 0;
+}
+#rocketScience .rocketScience--block2 {
+  margin: 60px 15px 100px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+}
+#rocketScience .rocketScience--block2 h1 {
+  padding: 25px 0;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 31px;
+  color: #333333;
+}
+#rocketScience .rocketScience--block2 h5 {
+  padding: 0 0 25px 0;
+  width: 250px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+  color: #BDBDBD;
+}
+#rocketScience .rocketScience--block2 p {
+  color: #B85C38;
+  padding: 10px 0 70px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
