@@ -71,6 +71,57 @@ a {
 #reviews .reviews--image__text2 h2 {
   padding: 15px 0;
   color: #333333;
+#factsSpace .factsSpace {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#factsSpace .factsSpace--h1 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  color: #2D2424;
+}
+#factsSpace .factsSpace--h5 {
+  width: 600px;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  color: #BDBDBD;
+}
+#factsSpace .factsSpace--img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#factsSpace .factsSpace--img__text {
+  padding: 20px 0 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#factsSpace .factsSpace--img__text--tittle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 200px;
+  margin: 0 0 0 30px;
+}
+#factsSpace .factsSpace--img__text--tittle__p {
+  color: #B85C38;
+}
+#factsSpace .factsSpace--img__text--tittle h5 {
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #BDBDBD;
+  width: 280px;
 }
 
 /*# sourceMappingURL=style.css.map */
