@@ -73,6 +73,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 #header .start--around__play {
   font-size: 30px;
