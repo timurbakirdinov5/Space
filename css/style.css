@@ -129,6 +129,52 @@ a {
   color: #FFFFFF;
 }
 
+#features .fac {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  text-align: center;
+  color: #2D2424;
+  margin-top: 50px;
+}
+#features .lop {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+  color: #BDBDBD;
+  width: 920px;
+  margin-left: 150px;
+  margin-top: 30px;
+}
+#features .miko {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#features .miko h3 {
+  font-size: 24px;
+  color: #B85C38;
+  margin-top: 20px;
+}
+#features .miko p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #BDBDBD;
+  width: 250px;
+  margin-top: 20px;
+}
+#features .css {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+}
+
 #reviews .reviews--image {
   display: flex;
   justify-content: space-around;
